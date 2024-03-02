@@ -8,24 +8,61 @@
         h2, p, label{
             color: cadetblue;
         }
+        h2{
+            color: cadetblue;
+            font-weight: bolder;
+            text-align: center;
+            letter-spacing: 4px;
+             text-transform: uppercase;
+             text-shadow: 2px 2px 3px black;
+            font-family: 'Righteous', cursive;
+        }
+        p{
+            
+            font-size: large;
+            margin-left: 20px;
+         }
+         label{
+            color: cadetblue;
+            text-align: center;
+            padding: 10px 15px;
+            margin-bottom: 10px;
+            margin-right: 78px;
+         }
+         
+         input{
+           
+            border-radius: 10px;
+            color: #0d5c63;
+            font-weight: bolder;
+            font-size: x-large;
+            text-align: center;
+           }
+    
         button{
             background-color: #4caf50;
-            width: 250px;
+            width: 350px;
             text-align: center;
             border-radius: 8px;
             border: green;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin: top 50px; ;
+
         }
         button[type="submit"]:hover{
             color: burlywood;
         }
         input[type="number"]{
-            width: 250px;
+            width: 350px;
             border-radius: 8px;
         }
         .container{
-            background-color: #FFFF;
-            height: 300px;
-            width: 400px;
+            background-color: #e5afb0;
+            height: 350px;
+            width: 500px;
             margin: 50px auto;
             padding: 0px 15px;
             border-radius: 8px;
@@ -36,15 +73,19 @@
 </head>
 <body>
    
-    
+    <form action="">
     <div class="container"> 
         <h2>DISCOUNT CALCULATOR</h2>
         <P>Enter the Bill amount and Discount in Percentage</P>
         <label for="">Bill Amount </label><br>
         <input type="number"><br>
+        <br>
         <label for="">Discount Percentage</label><br>
         <input type="number"><br>
-         <button type="submit">Calculator</button>
+        <br>
+         <button type="submit">Calculator</button><br>
+         <p>Total Discount Amount</p>
     </div>
+</form>
 </body>
 </html>
